@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tab-container {
+  display: flex;
+}
+.tab-heading {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.selected-tab {
+  height: 200px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.interest-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 300px;
+  align-items: center;
+}
+
+.profile-tab-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-tab-bottom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.pre-next-btn {
+  margin: 10px;
+}
+
+.input-error {
+  color: red;
+}
